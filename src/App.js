@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <div>State: {state.date}</div>
       <label htmlFor='datetest'>Test:</label>
-      <input id='datetest' type="date" max="2024-03-07" value={state.date} onChange={onChange}></input>
+      <input id='datetest' type="date" value={state.date} onChange={onChange}></input>
     </div>
   );
 }
